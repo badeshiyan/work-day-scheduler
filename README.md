@@ -14,25 +14,11 @@ Please find the deployed webpage link here: https://badeshiyan.github.io/passwor
 
 ## Screenshots of Deployed Webpage:
 
-![Adeshiyan Password Generator 1](./images/pwscreenshot1.png)
-
-![Adeshiyan Password Generator 2](./images/pwscreenshot2.png)
-
-![Adeshiyan Password Generator 3](./images/pwscreenshot3.png)
-
-![Adeshiyan Password Generator 4](./images/pwscreenshot4.png)
-
-![Adeshiyan Password Generator 5](./images/pwscreenshot5.png)
-
-![Adeshiyan Password Generator 6](./images/pwscreenshot6.png)
-
 ## Credits
 
 1. W3schools: https://www.w3schools.com/
 
 2. MDN web docs: https://developer.mozilla.org/en-US/
-
-3. Stack Overflow: https://stackoverflow.com/
 
 ## MIT License
 
