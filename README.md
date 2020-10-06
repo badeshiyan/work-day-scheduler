@@ -10,7 +10,7 @@ Please find additional information regarding this javascript project below.
 
 ## Deployed Webpage Link
 
-Please find the deployed webpage link here: https://badeshiyan.github.io/password-generator/
+Please find the deployed webpage link here: https://badeshiyan.github.io/work-day-scheduler/
 
 ## Screenshots of Deployed Webpage:
 
@@ -19,6 +19,10 @@ Please find the deployed webpage link here: https://badeshiyan.github.io/passwor
 1. W3schools: https://www.w3schools.com/
 
 2. MDN web docs: https://developer.mozilla.org/en-US/
+
+3. Moment.js: https://momentjs.com/
+
+4. Bootstrap: https://getbootstrap.com/
 
 ## MIT License
 
