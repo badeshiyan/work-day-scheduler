@@ -1,3 +1,10 @@
+var headerDate = document.getElementById("currentDay");
+headerDate.textContent = moment().format("dddd, MMMM Do");
+
+// localStorage.setItem("10", "");
+// localStorage.setItem("11", "");
+// localStorage.setItem("17", "");
+
 $(".saveBtn").on("click", function () {
   var time = $(this).parent().attr("id");
   var text = $(this).siblings("textarea").val();
