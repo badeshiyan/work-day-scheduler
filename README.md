@@ -2,9 +2,7 @@
 
 ## Overview:
 
-As we all continue to battle with the unprecedented effects of COVID-19, the number of the world's workforce who are now employed remotely continues to rise. As these numbers increase, so does the opportunity for cybercrimes. It is imperative that those working remotely utilize enhanced security efforts to keep their sensitive information from being compromised.
-
-Upon review of this project, the reader will find the creation of a dynamic password generating application. With the primary use of javascript, the developer implemented javascript and other coding concepts to achieve this effort, including the usage of arrays, for loops and functions (math.random, math.floor, sort, etc.). Based on the provided requirements, the developer ensured that the user can successfully enter the desired length (8 - 128 characters) and character types (upper case, lower case, numerical and special characters) into the web application to generate a specific password per the submitted inputs.
+This project includes the use of dynamically updated HTML, CSS and jQuery to generate a simple calendar application. In said calendar, the user is able to input and save 'to-do's' throughout a 9am - 5pm workday. In addition to the previously mentioned coding concepts, the calendar also utilizes the moment.js library to accurately display the current date and time.
 
 Please find additional information regarding this javascript project below.
 
@@ -16,13 +14,13 @@ Please find the deployed webpage link here: https://badeshiyan.github.io/work-da
 
 ## Credits
 
-1. W3schools: https://www.w3schools.com/
+1. Moment.js: https://momentjs.com/
 
-2. MDN web docs: https://developer.mozilla.org/en-US/
+2. Bootstrap: https://getbootstrap.com/
 
-3. Moment.js: https://momentjs.com/
+3. W3schools: https://www.w3schools.com/
 
-4. Bootstrap: https://getbootstrap.com/
+4. MDN web docs: https://developer.mozilla.org/en-US/
 
 ## MIT License
 

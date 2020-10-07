@@ -1,4 +1,3 @@
-// declaring global variables
 var headerDate = document.getElementById("currentDay");
 headerDate.textContent = moment().format("dddd, MMMM Do");
 
@@ -6,14 +5,12 @@ headerDate.textContent = moment().format("dddd, MMMM Do");
 // localStorage.setItem("11", "");
 // localStorage.setItem("17", "");
 
-// save button function
 $(".saveBtn").on("click", function () {
   var time = $(this).parent().attr("id");
   var text = $(this).siblings("textarea").val();
   localStorage.setItem(time, text);
 });
 
-//
 $("#9 textarea").val(localStorage.getItem("9"));
 $("#10 textarea").val(localStorage.getItem("10"));
 $("#11 textarea").val(localStorage.getItem("11"));
@@ -24,12 +21,28 @@ $("#15 textarea").val(localStorage.getItem("15"));
 $("#16 textarea").val(localStorage.getItem("16"));
 $("#17 textarea").val(localStorage.getItem("17"));
 
-for (i = 0; i < 9; i++) {
-  var calendar = i;
+// new code to fix calendar colors
 
-  if (calendarHour < currentHour)
-    if ((calendarHour = currentHour))
-      if (calendarHour > currentHour) console.log(moment().format("h"));
-  console.log(moment().hour());
-  console.log(moment().hours());
+// var currentHour = use moment.js to get the hour of the current time
+var d = new Date();
+var currentHour = d.getHours();
+
+// create a for loop, to iterate through your calendar time blocks
+for (var i = 9; i < 18; i++) {
+  var calendarHour = i; // sets the current position of calendar
+  // time block (for your web application)
+
+  // check to see if calendarHour is in the past, present, or future
+  // if(calendarHour < currentHour -> in the past, color me gray
+  if (calendarHour > currentHour) {
+    $("#", i, " textarea").past;
+  }
+  // if calendarHour = currentHour -> in the future, color me red
+  // if calendarHour > currentHour -> in the future, color me green
 }
+
+// console.log(moment().format('h')); // display hour in standard time
+// console.log(moment().hour()); // display hour in military time
+// console.log(moment().hours()); // display hour in military time also
+
+// Note: you will need to use military time
