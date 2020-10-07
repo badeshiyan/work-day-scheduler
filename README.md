@@ -12,7 +12,7 @@ Please find the deployed webpage link here: https://badeshiyan.github.io/work-da
 
 ## Screenshots of Deployed Webpage:
 
-![Adeshiyan Workday Calendar](./assets/wdcscreenshot.png)
+![Adeshiyan Workday Calendar](./Assets/wdcscreenshot.png)
 
 ## Credits
 
