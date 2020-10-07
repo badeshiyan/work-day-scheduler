@@ -34,15 +34,25 @@ for (var i = 9; i < 18; i++) {
 
   // check to see if calendarHour is in the past, present, or future
   // if(calendarHour < currentHour -> in the past, color me gray
-  if (calendarHour > currentHour) {
-    $("#", i, " textarea").past;
+  if (calendarHour < currentHour) {
+    var divElement = document.getElementById(calendarHour);
+    var nodes = divElement.childNodes;
+    nodes[3].style.backgroundColor = "gray";
   }
   // if calendarHour = currentHour -> in the future, color me red
+  if (calendarHour === currentHour) {
+    var divElement = document.getElementById(calendarHour);
+    var nodes = divElement.childNodes;
+    nodes[3].style.backgroundColor = "red";
+  }
   // if calendarHour > currentHour -> in the future, color me green
+  if (calendarHour > currentHour) {
+    var divElement = document.getElementById(calendarHour);
+    var nodes = divElement.childNodes;
+    nodes[3].style.backgroundColor = "green";
+  }
 }
 
 // console.log(moment().format('h')); // display hour in standard time
 // console.log(moment().hour()); // display hour in military time
 // console.log(moment().hours()); // display hour in military time also
-
-// Note: you will need to use military time

@@ -2,7 +2,7 @@
 
 ## Overview:
 
-This project includes the use of dynamically updated HTML, CSS and jQuery to generate a simple calendar application. In said calendar, the user is able to input and save 'to-do's' throughout a 9am - 5pm workday. In addition to the previously mentioned coding concepts, the calendar also utilizes the moment.js library to accurately display the current date and time.
+This project includes the use of dynamically updated HTML, CSS and jQuery to generate a simple calendar application. In said calendar, the user is able to input and save 'to-do's' throughout a 9am - 5pm workday allotment. In addition to the previously mentioned coding concepts, the calendar also utilizes the moment.js library to accurately display the current date and time.
 
 Please find additional information regarding this javascript project below.
 
@@ -16,11 +16,13 @@ Please find the deployed webpage link here: https://badeshiyan.github.io/work-da
 
 1. Moment.js: https://momentjs.com/
 
-2. Bootstrap: https://getbootstrap.com/
+2. jQuery API: https://api.jquery.com/
 
-3. W3schools: https://www.w3schools.com/
+3. Bootstrap: https://getbootstrap.com/
 
-4. MDN web docs: https://developer.mozilla.org/en-US/
+4. W3schools: https://www.w3schools.com/
+
+5. MDN web docs: https://developer.mozilla.org/en-US/
 
 ## MIT License
 
