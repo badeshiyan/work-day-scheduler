@@ -10,7 +10,7 @@ Please find additional information regarding this javascript project below.
 
 Please find the deployed webpage link here: https://badeshiyan.github.io/work-day-scheduler/
 
-## Screenshots of Deployed Webpage:
+## Screenshot of Deployed Webpage:
 
 ![Adeshiyan Workday Calendar](./Assets/wdcscreenshot.png)
 
