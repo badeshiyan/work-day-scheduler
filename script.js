@@ -1,12 +1,14 @@
 var headerDate = document.getElementById("currentDay");
 headerDate.textContent = moment().format("dddd, MMMM Do");
 
+// save button function
 $(".saveBtn").on("click", function () {
   var time = $(this).parent().attr("id");
   var text = $(this).siblings("textarea").val();
   localStorage.setItem(time, text);
 });
 
+// local storage for calendar text area
 $("#9 textarea").val(localStorage.getItem("9"));
 $("#10 textarea").val(localStorage.getItem("10"));
 $("#11 textarea").val(localStorage.getItem("11"));
